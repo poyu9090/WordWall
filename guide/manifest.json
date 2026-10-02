@@ -3,7 +3,7 @@
   "videos": {
     "build": {
       "zh": {
-        "url": "build-zh.mp4",
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@dc0a584bfbda03e8d90379b5f99db330b542a51c/guide/build-zh.mp4",
         "duration": 40.2,
         "steps": [
           0,
@@ -20,7 +20,7 @@
     },
     "auto": {
       "zh": {
-        "url": "auto-zh.mp4",
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@dc0a584bfbda03e8d90379b5f99db330b542a51c/guide/auto-zh.mp4",
         "duration": 34.5,
         "steps": [
           0,
