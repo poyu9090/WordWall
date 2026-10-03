@@ -11,6 +11,16 @@
           23.5
         ],
         "rev": 2
+      },
+      "en": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@57bccc794d8b3ccfd54e94a28b43c404c5809e7e/guide/install-en.mp4",
+        "duration": 31.3,
+        "steps": [
+          0,
+          7,
+          28
+        ],
+        "rev": 2
       }
     },
     "build": {
@@ -28,6 +38,21 @@
           36
         ],
         "rev": 2
+      },
+      "en": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@57bccc794d8b3ccfd54e94a28b43c404c5809e7e/guide/build-en.mp4",
+        "duration": 47.6,
+        "steps": [
+          0,
+          5,
+          10,
+          19,
+          21,
+          31,
+          37,
+          45
+        ],
+        "rev": 2
       }
     },
     "auto": {
@@ -41,6 +66,20 @@
           8,
           20,
           28,
+          32
+        ],
+        "rev": 2
+      },
+      "en": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@57bccc794d8b3ccfd54e94a28b43c404c5809e7e/guide/auto-en.mp4",
+        "duration": 36.4,
+        "steps": [
+          0,
+          3,
+          6,
+          8,
+          17,
+          23,
           32
         ],
         "rev": 2
