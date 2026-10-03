@@ -21,6 +21,26 @@
           28
         ],
         "rev": 2
+      },
+      "ja": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/install-ja.mp4",
+        "duration": 29.3,
+        "steps": [
+          0,
+          4,
+          26
+        ],
+        "rev": 1
+      },
+      "ko": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/install-ko.mp4",
+        "duration": 27.3,
+        "steps": [
+          0,
+          4,
+          25
+        ],
+        "rev": 1
       }
     },
     "build": {
@@ -53,6 +73,36 @@
           45
         ],
         "rev": 2
+      },
+      "ja": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/build-ja.mp4",
+        "duration": 45.2,
+        "steps": [
+          0,
+          4,
+          7,
+          16,
+          19,
+          28,
+          34,
+          42
+        ],
+        "rev": 1
+      },
+      "ko": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/build-ko.mp4",
+        "duration": 38.5,
+        "steps": [
+          0,
+          5,
+          7,
+          16,
+          19,
+          25,
+          32,
+          36
+        ],
+        "rev": 1
       }
     },
     "auto": {
@@ -83,6 +133,34 @@
           32
         ],
         "rev": 2
+      },
+      "ja": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/auto-ja.mp4",
+        "duration": 28.0,
+        "steps": [
+          0,
+          3,
+          5,
+          8,
+          14,
+          20,
+          26
+        ],
+        "rev": 1
+      },
+      "ko": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@f08c3f301b3184cb2ba3947c148471b5d41187bf/guide/auto-ko.mp4",
+        "duration": 29.6,
+        "steps": [
+          0,
+          3,
+          6,
+          8,
+          14,
+          20,
+          27
+        ],
+        "rev": 1
       }
     }
   }
