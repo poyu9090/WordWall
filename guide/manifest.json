@@ -1,6 +1,18 @@
 {
   "version": 1,
   "videos": {
+    "install": {
+      "zh": {
+        "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@6475cb173847b08ef3a39073483bd5a69d20fe25/guide/install-zh.mp4",
+        "duration": 26.6,
+        "steps": [
+          0,
+          3,
+          23.5
+        ],
+        "rev": 2
+      }
+    },
     "build": {
       "zh": {
         "url": "https://cdn.jsdelivr.net/gh/poyu9090/WordWall@dc0a584bfbda03e8d90379b5f99db330b542a51c/guide/build-zh.mp4",
