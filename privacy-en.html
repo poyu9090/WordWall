@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LockVocab — Privacy Policy</title>
+<style>
+  :root { --paper:#F5EFE4; --ink:#33302B; --sub:#6B655C; --rule:#DDD3C2; --accent:#B4562F; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,"Helvetica Neue",system-ui,sans-serif;
+    line-height:1.85; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:56px 24px 80px; }
+  h1 { font-size:28px; letter-spacing:.02em; margin:0 0 4px; }
+  .meta { color:var(--sub); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:19px; margin:36px 0 10px; padding-top:8px; border-top:1px solid var(--rule); }
+  h2:first-of-type { border-top:none; }
+  p, li { font-size:16px; color:#413D37; }
+  .lead { font-size:17px; }
+  strong { color:var(--accent); }
+  ul { padding-left:20px; }
+  .foot { margin-top:48px; padding-top:16px; border-top:1px solid var(--rule); color:var(--sub); font-size:13px; }
+  a { color:var(--accent); }
+  .consent { margin:12px 0 16px; padding:16px 18px; border:1px solid var(--rule); border-radius:12px; }
+  .consent .summary { margin:0 0 10px; }
+  .consent ul.points { list-style:none; margin:0; padding:0; }
+  .consent ul.points li { margin:0 0 10px; font-size:15px; }
+  .consent ul.points strong { display:block; color:var(--ink); font-weight:600; }
+  .consent ul.points span { color:#413D37; }
+  .consent .note { margin:4px 0 0; font-size:14px; color:var(--sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy</h1>
+  <div class="meta">LockVocab · Last updated: October 2026</div>
+
+  <p class="lead">LockVocab is a vocabulary app that works mostly on your device. Our principle is simple: <strong>your learning history stays on your device; we don't need an account, we don't collect data that identifies you, and we don't track you.</strong></p>
+
+  <h2>What we collect</h2>
+  <p>We <strong>do not collect personal data that identifies you</strong>. The app doesn't ask you to sign up or log in, and it doesn't create an account. Only after you allow "AI word fill-in" do the English words you send pass through our server (see "AI word fill-in" below).</p>
+  <p>To learn which features are used and what to improve, we collect <strong>anonymous usage statistics</strong> through TelemetryDeck — for example which features you use, how many lock screen wallpapers you make, the app version and the device model. This data contains no name, email, contacts, photos or location, can't be linked to you, and is never used for advertising or tracking.</p>
+
+  <h2>Where your data is stored</h2>
+  <p>Your learning history (known / unknown marks, favorites, custom words and words you add yourself, word progress, wallpaper style settings, and background photos you upload) is stored only on your iPhone and is never uploaded. Deleting the app removes all of it.</p>
+  <p>When you add words with "Import from photos", the photos are only read on your phone to find the text (English words and any meanings printed next to them). <strong>The photos themselves are never uploaded</strong> and are not saved separately.</p>
+
+  <h2>Network connections</h2>
+  <p>Learning words and making lock screen wallpapers don't need the internet. The app only connects when:</p>
+  <ul>
+    <li>Sending the anonymous usage statistics above (TelemetryDeck).</li>
+    <li>Watching a setup video, which is downloaded from jsDelivr (download only; nothing is uploaded).</li>
+    <li>Buying or restoring the in-app purchase, which is handled by Apple's App Store.</li>
+    <li>After you allow "AI word fill-in", sending English words that aren't in our library to have their meanings filled in (see below).</li>
+  </ul>
+
+  <h2 id="ai">AI word fill-in</h2>
+  <p>When you add your own words, the app can ask AI to fill in the part of speech, pronunciation, meaning and an example. When you import a vocabulary page from a photo, the meanings printed next to the words are sent too, so the AI writes examples for that meaning; the printed meaning itself is kept as is. With photo import, the text recognized on the whole page — never the photo itself — is sent for the AI to sort out: on a word list the AI picks the words and matches the printed meanings; on an English article it picks the words worth learning and uses the article's own sentences as examples. This works the same in every interface language; without a connection, or if the AI doesn't answer, the app uses what your phone read. Before the first use, the app shows the explanation below and asks for your permission. <strong>If you don't allow it, nothing is sent</strong> — you can still fill words in yourself, and photo import only brings in words from our library. You can turn it on or off anytime in Settings → AI word fill-in.</p>
+  <div class="consent" id="ai-consent"><p class="summary">AI fills in what's missing — part of speech, pronunciation, meaning and an example.</p><ul class="points"><li><strong>Your photos stay on your phone</strong><span>We only send the English words, the text recognized in your photo (never the photo itself), and an anonymous code.</span></li><li><strong>Filled in by AI</strong><span>Anthropic's AI model (Claude), through our server, which doesn't keep your words.</span></li><li><strong>Not used to train AI</strong><span>Anthropic deletes it within 30 days.</span></li></ul><p class="note">If you don't allow it, you can still fill words in yourself. Turn it off anytime in Settings.</p></div>
+  <p>More details:</p>
+  <ul>
+    <li>The <strong>anonymous code</strong> is a random code created when the app is installed. It contains no name, email or Apple ID and is only used to count how many words you can fill in each day and each month, and how many free photo-import tries are left. To prevent abuse, the app also attaches verification information provided by Apple, which confirms the request comes from the genuine app or from your full-version purchase; this information doesn't identify you either.</li>
+    <li>Our server only passes the words along and <strong>does not keep the words or meanings you send</strong>. It only records usage numbers such as word counts and times (keyed by a hash of the anonymous code, kept for up to 180 days) to enforce the daily and monthly limits and keep service costs in check.</li>
+    <li>Under its <a href="https://www.anthropic.com/legal/commercial-terms">Commercial Terms</a>, Anthropic does not use this content to train AI and deletes it from its systems within 30 days. It may keep content longer only if the content is flagged for violating its usage policies or when required by law (see the <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>).</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <ul>
+    <li>We use <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a> for anonymous usage statistics. We don't use any advertising or cross-app tracking SDKs.</li>
+    <li>After you allow "AI word fill-in", English words are sent to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>'s AI, Claude, to generate meanings (see "AI word fill-in" above).</li>
+    <li>Apart from the uses above, we don't sell or share data with any other third party.</li>
+    <li>In-app purchases (unlocking the full version) are handled by Apple's App Store. Transaction information is covered by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; we never receive your payment details.</li>
+  </ul>
+
+  <h2>Tracking</h2>
+  <p>The app does not track you across other apps or websites and does not use the advertising identifier (IDFA).</p>
+
+  <h2>Children</h2>
+  <p>The app is suitable for all ages and does not collect personal data from any user, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, we'll update this page and the date at the top.</p>
+
+  <h2>Contact us</h2>
+  <p>Questions about privacy? Email us at <a href="mailto:poyu0318@gmail.com">poyu0318@gmail.com</a></p>
+
+  <div class="foot">© 2026 Poyu Chiang · LockVocab</div>
+</div>
+</body>
+</html>

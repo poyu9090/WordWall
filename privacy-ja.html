@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ロック英単語 — プライバシーポリシー</title>
+<style>
+  :root { --paper:#F5EFE4; --ink:#33302B; --sub:#6B655C; --rule:#DDD3C2; --accent:#B4562F; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font-family:-apple-system,"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+    line-height:1.85; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:56px 24px 80px; }
+  h1 { font-size:28px; letter-spacing:.02em; margin:0 0 4px; }
+  .meta { color:var(--sub); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:19px; margin:36px 0 10px; padding-top:8px; border-top:1px solid var(--rule); }
+  h2:first-of-type { border-top:none; }
+  p, li { font-size:16px; color:#413D37; }
+  .lead { font-size:17px; }
+  strong { color:var(--accent); }
+  ul { padding-left:20px; }
+  .foot { margin-top:48px; padding-top:16px; border-top:1px solid var(--rule); color:var(--sub); font-size:13px; }
+  a { color:var(--accent); }
+  .consent { margin:12px 0 16px; padding:16px 18px; border:1px solid var(--rule); border-radius:12px; }
+  .consent .summary { margin:0 0 10px; }
+  .consent ul.points { list-style:none; margin:0; padding:0; }
+  .consent ul.points li { margin:0 0 10px; font-size:15px; }
+  .consent ul.points strong { display:block; color:var(--ink); font-weight:600; }
+  .consent ul.points span { color:#413D37; }
+  .consent .note { margin:4px 0 0; font-size:14px; color:var(--sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>プライバシーポリシー</h1>
+  <div class="meta">ロック英単語(LockVocab)· 最終更新:2026年10月</div>
+
+  <p class="lead">「ロック英単語」は、主に端末上で動く英単語学習アプリです。方針はシンプルです:<strong>学習記録はあなたの端末だけに残ります。アカウントは不要で、あなたを特定できるデータは集めず、追跡もしません。</strong></p>
+
+  <h2>収集するデータ</h2>
+  <p>当アプリは<strong>あなたを特定できる個人データを収集しません</strong>。登録やログインは不要で、アカウントも作成しません。「AI単語補完」に同意した場合に限り、あなたが送った英単語が当社のサーバーを経由します(下記「AI単語補完」参照)。</p>
+  <p>どの機能が使われているか、どこを改善すべきかを知るため、TelemetryDeck で<strong>匿名の利用統計</strong>を収集しています。たとえば使った機能、ロック画面の壁紙を作った回数、アプリのバージョン、端末の機種などです。名前・メールアドレス・連絡先・写真・位置情報は含まれず、あなたと結び付けることはできません。広告や追跡には使いません。</p>
+
+  <h2>データの保存</h2>
+  <p>学習記録(覚えた/苦手のマーク、お気に入り、カスタム単語と自分で追加した単語、単語の進み具合、壁紙のスタイル設定、アップロードした背景写真)は、すべて iPhone の中だけに保存され、アップロードされません。アプリを削除するとすべて消えます。</p>
+  <p>「写真から取り込む」で単語を追加するとき、写真は端末上で文字(英単語と、そばに印刷された意味)を読み取るだけです。<strong>写真そのものはアップロードせず</strong>、別に保存することもありません。</p>
+
+  <h2>ネットワーク接続</h2>
+  <p>単語の学習とロック画面の壁紙作りにインターネットは不要です。接続するのは次の場合だけです:</p>
+  <ul>
+    <li>上記の匿名利用統計を送るとき(TelemetryDeck)。</li>
+    <li>設定ガイドの動画を見るとき、jsDelivr から動画をダウンロードします(ダウンロードのみで、何もアップロードしません)。</li>
+    <li>アプリ内購入と購入の復元。Apple の App Store が処理します。</li>
+    <li>「AI単語補完」に同意したあと、辞書にない英単語を送って意味を補完するとき(下記参照)。</li>
+  </ul>
+
+  <h2 id="ai">AI単語補完</h2>
+  <p>自分で単語を追加するとき、品詞・発音記号・意味・例文をAIに補完してもらえます。単語ページを写真から取り込むときは、単語のそばに印刷された意味も一緒に送り、AIはその意味に合った例文を作ります(印刷された意味そのものは書き換えません)。写真から取り込むときは、写真から読み取ったページ全体の文字(写真そのものは送りません)を送り、AIが整理します。単語ページならAIが単語を選んで印刷された意味と対応させ、英語の文章なら覚えたい単語を選び、例文には文章の原文を使います。どの表示言語でも同じです。オフラインやAIが応答しない場合は、端末で読み取った結果を使います。初めて使う前に、アプリが次の説明を表示して同意をお願いします。<strong>同意しない場合は何も送信しません</strong>。自分で入力することはでき、写真からの取り込みでは辞書にある単語だけを追加します。アプリの「設定 → AI単語補完」でいつでもオン/オフできます。</p>
+  <div class="consent" id="ai-consent"><p class="summary">足りない品詞・発音記号・意味・例文を、AIが補完します。</p><ul class="points"><li><strong>写真は端末に残ります</strong><span>送るのは英単語、写真から読み取った文字(写真そのものは送りません)、匿名コードだけです。</span></li><li><strong>AIが補完します</strong><span>AnthropicのAIモデル(Claude)。当社のサーバーを経由しますが、単語は保存しません。</span></li><li><strong>AIの学習には使われません</strong><span>Anthropicが30日以内に削除します。</span></li></ul><p class="note">同意しなくても自分で入力できます。設定からいつでもオフにできます。</p></div>
+  <p>補足:</p>
+  <ul>
+    <li><strong>匿名コード</strong>は、アプリのインストール時にランダムに作られるコードです。名前・メールアドレス・Apple ID は含まず、1日と1か月に補完できる単語数と、無料版の写真取り込みのお試し回数を数えるためだけに使います。不正利用を防ぐため、アプリは Apple が提供する確認情報も添えて送ります。これは正規のアプリ、または完全版の購入記録からのリクエストであることを確かめるためのもので、あなたを特定する情報は含みません。</li>
+    <li>当社のサーバーは中継するだけで、<strong>送られた単語と意味は保存しません</strong>。1日と1か月の上限を設け、サービスのコストを管理するため、単語数や時刻などの利用量だけを記録します(匿名コードのハッシュで区別し、最長180日保存)。</li>
+    <li>Anthropic は<a href="https://www.anthropic.com/legal/commercial-terms">商用利用規約</a>に基づき、この内容をAIの学習に使わず、30日以内にシステムから削除します。利用ポリシー違反と判定された場合や法律で求められた場合に限り、より長く保存されることがあります(詳しくは <a href="https://www.anthropic.com/legal/privacy">Anthropic のプライバシーポリシー</a>)。</li>
+  </ul>
+
+  <h2>第三者</h2>
+  <ul>
+    <li>匿名の利用統計に <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a> を使っています。広告やアプリをまたいだ追跡の SDK は使いません。</li>
+    <li>「AI単語補完」に同意すると、英単語は <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> のAI「Claude」に渡され、意味が作られます(上記「AI単語補完」参照)。</li>
+    <li>上記以外の目的でデータを販売したり、ほかの第三者と共有したりすることはありません。</li>
+    <li>アプリ内購入(完全版の解除)は Apple の App Store が処理します。取引情報は <a href="https://www.apple.com/legal/privacy/">Apple のプライバシーポリシー</a>に従い、当社が支払い情報を受け取ることはありません。</li>
+  </ul>
+
+  <h2>トラッキング</h2>
+  <p>当アプリは、ほかのアプリやウェブサイトをまたいであなたの行動を追跡せず、広告識別子(IDFA)も使いません。</p>
+
+  <h2>子ども</h2>
+  <p>当アプリはすべての年齢の方に適しており、子どもを含むどのユーザーからも個人データを収集しません。</p>
+
+  <h2>ポリシーの変更</h2>
+  <p>このポリシーを更新した場合は、このページの内容と上部の日付を更新します。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>プライバシーについてのご質問は、こちらまでメールでどうぞ:<a href="mailto:poyu0318@gmail.com">poyu0318@gmail.com</a></p>
+
+  <div class="foot">© 2026 Poyu Chiang · ロック英単語</div>
+</div>
+</body>
+</html>
