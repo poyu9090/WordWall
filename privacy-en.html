@@ -38,7 +38,7 @@
   <p class="lead">LockVocab is a vocabulary app that works mostly on your device. Our principle is simple: <strong>your learning history stays on your device; we don't need an account, we don't collect data that identifies you, and we don't track you.</strong></p>
 
   <h2>What we collect</h2>
-  <p>We <strong>do not collect personal data that identifies you</strong>. The app doesn't ask you to sign up or log in, and it doesn't create an account. Only after you allow "AI word fill-in" do the English words you send pass through our server (see "AI word fill-in" below).</p>
+  <p>We <strong>do not collect personal data that identifies you</strong>. The app doesn't ask you to sign up or log in, and it doesn't create an account. Only after you allow "AI word fill-in" do the English words and the text recognized in your photos pass through our server (see "AI word fill-in" below).</p>
   <p>To learn which features are used and what to improve, we collect <strong>anonymous usage statistics</strong> through TelemetryDeck — for example which features you use, how many lock screen wallpapers you make, the app version and the device model. This data contains no name, email, contacts, photos or location, can't be linked to you, and is never used for advertising or tracking.</p>
 
   <h2>Where your data is stored</h2>
@@ -60,6 +60,7 @@
   <p>More details:</p>
   <ul>
     <li>The <strong>anonymous code</strong> is a random code created when the app is installed. It contains no name, email or Apple ID and is only used to count how many words you can fill in each day and each month, and how many free photo-import tries are left. To prevent abuse, the app also attaches verification information provided by Apple, which confirms the request comes from the genuine app or from your full-version purchase; this information doesn't identify you either.</li>
+    <li>For the free version, the IP address of the connection is also used to count daily requests and prevent abuse. These counts are deleted automatically within 26 hours.</li>
     <li>Our server only passes the words along and <strong>does not keep the words or meanings you send</strong>. It only records usage numbers such as word counts and times (keyed by a hash of the anonymous code, kept for up to 180 days) to enforce the daily and monthly limits and keep service costs in check.</li>
     <li>Under its <a href="https://www.anthropic.com/legal/commercial-terms">Commercial Terms</a>, Anthropic does not use this content to train AI and deletes it from its systems within 30 days. It may keep content longer only if the content is flagged for violating its usage policies or when required by law (see the <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>).</li>
   </ul>
@@ -67,7 +68,7 @@
   <h2>Third parties</h2>
   <ul>
     <li>We use <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a> for anonymous usage statistics. We don't use any advertising or cross-app tracking SDKs.</li>
-    <li>After you allow "AI word fill-in", English words are sent to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>'s AI, Claude, to generate meanings (see "AI word fill-in" above).</li>
+    <li>After you allow "AI word fill-in", English words and the text recognized in your photos are sent to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>'s AI, Claude, to generate meanings (see "AI word fill-in" above).</li>
     <li>Apart from the uses above, we don't sell or share data with any other third party.</li>
     <li>In-app purchases (unlocking the full version) are handled by Apple's App Store. Transaction information is covered by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; we never receive your payment details.</li>
   </ul>
