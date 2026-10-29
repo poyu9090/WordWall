@@ -39,7 +39,7 @@
 
   <h2>What we collect</h2>
   <p>We <strong>do not collect personal data that identifies you</strong>. The app doesn't ask you to sign up or log in, and it doesn't create an account. Only after you allow "AI word fill-in" do the English words and the text recognized in your photos pass through our server (see "AI word fill-in" below).</p>
-  <p>To learn which features are used and what to improve, we collect <strong>anonymous usage statistics</strong> through TelemetryDeck — for example which features you use, how many lock screen wallpapers you make, the app version and the device model. This data contains no name, email, contacts, photos or location, can't be linked to you, and is never used for advertising or tracking.</p>
+  <p>To learn which features are used and what to improve, we collect <strong>anonymous usage statistics</strong> — for example which features you use, how many lock screen wallpapers you make, the app version, the device model and your country or region. This data is sent, together with the random anonymous code the app creates when it's installed (see "AI word fill-in" below), to our own server hosted on Cloudflare, which stores only a hash of that code. It contains no name, email, contacts, photos or location, and we don't store your IP address (the country or region is read from the connection and only the two-letter country code is kept). It can't be linked to you, is never used for advertising or tracking, and is kept for up to 2 years. During a transition period, a copy is also sent to TelemetryDeck.</p>
 
   <h2>Where your data is stored</h2>
   <p>Your learning history (known / unknown marks, favorites, custom words and words you add yourself, word progress, wallpaper style settings, and background photos you upload) is stored only on your iPhone and is never uploaded. Deleting the app removes all of it.</p>
@@ -48,7 +48,7 @@
   <h2>Network connections</h2>
   <p>Learning words and making lock screen wallpapers don't need the internet. The app only connects when:</p>
   <ul>
-    <li>Sending the anonymous usage statistics above (TelemetryDeck).</li>
+    <li>Sending the anonymous usage statistics above (our server; also TelemetryDeck during the transition period).</li>
     <li>Watching a setup video, which is downloaded from jsDelivr (download only; nothing is uploaded).</li>
     <li>Buying or restoring the in-app purchase, which is handled by Apple's App Store.</li>
     <li>After you allow "AI word fill-in", sending English words that aren't in our library to have their meanings filled in (see below).</li>
@@ -67,7 +67,7 @@
 
   <h2>Third parties</h2>
   <ul>
-    <li>We use <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a> for anonymous usage statistics. We don't use any advertising or cross-app tracking SDKs.</li>
+    <li>Anonymous usage statistics are stored on our own server, hosted by <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>; during a transition period we also use <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>. We don't use any advertising or cross-app tracking SDKs.</li>
     <li>After you allow "AI word fill-in", English words and the text recognized in your photos are sent to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>'s AI, Claude, to generate meanings (see "AI word fill-in" above).</li>
     <li>Apart from the uses above, we don't sell or share data with any other third party.</li>
     <li>In-app purchases (unlocking the full version) are handled by Apple's App Store. Transaction information is covered by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; we never receive your payment details.</li>
